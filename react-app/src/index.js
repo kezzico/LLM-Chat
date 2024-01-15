@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Root, ChatBot } from './components'
+import { Root, Chat } from './components'
 
 import {
   createBrowserRouter,
@@ -12,7 +12,7 @@ import {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route index element={<ChatBot />} />
+      <Route index element={<Chat />} />
     </Route>
   )
 );

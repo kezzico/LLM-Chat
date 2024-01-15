@@ -1,0 +1,58 @@
+main.chat  {
+  display: flex;
+  flex-direction: column;;
+  height: 99vh;
+  /* overflow-y: hidden; */
+
+  background-color: white;
+  background: white;
+  padding: 1.4em 1em 1em 1em;
+  box-sizing: border-box;
+}
+
+.chat article {
+  /* overflow-y: scroll; */
+  flex: 1 1 0%;
+  /* height: 1000%; */
+}
+.chat article h2 {
+  text-align: center;
+  margin-top: 11vh;
+  margin-bottom: 1em;
+}
+.chat img.icon {
+  width: 140px;
+  margin: auto;
+  display: block;
+  margin-bottom: 2em;
+}
+.chat article .suggestion {
+  border: solid #ccc 0.1em;
+  margin: 1em 3em;
+  padding: 0.2em 1.4em;
+  border-radius: 1em;
+}
+.chat article .suggestion p:first-child {
+  font-weight: bold;
+  margin-bottom: -0.5em;
+}
+.chat form {
+  margin: 1em auto;
+  border: solid #ccc 0.1em;
+  border-radius: 1em;
+  display: block;
+  width: 80%;
+}
+.chat textarea {
+  max-height: 200px;
+  height: 52px;
+  overflow-y: hidden;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 1.0em 1.8em;
+  font-size: 1.3em;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -3,13 +3,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
 
+html, body {
+    padding: 0px; margin: 0px;
+}
 body {
     background-color: gray;
-
     font-family: 'Roboto', sans-serif;
 }
 
-body > * {
-    background: white;
-    padding: 1.4em 1em 1em 1em;
-}
