@@ -1,10 +1,10 @@
 # LLM CHAT
 
-This is an open source project.
-
 LLM Chat is an interface for conversing with generic open source LLMs such as Zephyr7B and others.
 
-Currently it uses *EventStreams* to deliver output from the model to the React application via Flask.
+Currently it uses *[EventStreams](https://gist.github.com/kezzico/29c23039d43f2a6790afccd451a3375a)* to deliver output from the model to the React application via Flask.
+
+![Alt text](screenshot.jpg)
 
 ## Install
 
